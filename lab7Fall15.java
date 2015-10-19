@@ -18,12 +18,16 @@ public class lab7Fall15 {
 	 * 3. and returns an array of integers of size 2 that contains the values
 	 * 		of the two closest numbers
 	 ********************************************************************/
-	public static int[] closest(int[] A) {
-		
-		// your code goes here
-		
+	public static int[] closest(int[] numbersArray) {
+		int indexCounter;
+		int
+
+		for (indexCounter = 0; indexCounter < numbersArray.length; indexCounter++ ) {
+				
+		}
+
 	}
-	
+
 
 	/********************************************************************
 	 * ACTIVITY 1.2
@@ -39,20 +43,20 @@ public class lab7Fall15 {
 	 ********************************************************************/
 	public static boolean prefix(String str1, String str2) {
 		boolean isPrefix = false;
-		
+
 		// the rest of your code goes here
-		
+
 		return isPrefix;
 	}
-	
-	
+
+
 	/********************************************************************
 	 * ACTIVITY 2
 	 * Write a White-Box testing strategy for Method Closest
 	 * To be done in the docx file only
 	 ********************************************************************/
-	
-	
+
+
 	/***********************************************************************************/
 	/************* MAIN METHOD *********************************************************/
 	/************* This is where you write the name ************************************/
@@ -61,9 +65,9 @@ public class lab7Fall15 {
 		int[] A = {1,-3, 4, -19, 35};
 		int[] result = closest(A);
 		System.out.println("The closest values in A are: " + result[0] + " and " + result[1] + ".");
-		
+
 		// here plan to include code so that you can run Method Prefix
-		
+
 	}
 
 }
