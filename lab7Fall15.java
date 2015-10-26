@@ -23,7 +23,7 @@ public class lab7Fall15 {
 		int
 
 		for (indexCounter = 0; indexCounter < numbersArray.length; indexCounter++ ) {
-				
+
 		}
 
 	}
