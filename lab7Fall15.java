@@ -19,13 +19,21 @@ public class lab7Fall15 {
 	 * 		of the two closest numbers
 	 ********************************************************************/
 	public static int[] closest(int[] numbersArray) {
-		int indexCounter;
-		int
+		int minDif = Math.abs(numbersArray[0] - numbersArray[1]);
+		int valueOne = numbersArray[0];
+		int valueTwo = numbersArray[1];
+		int getIndex;
+		int testVar = 0;
 
-		for (indexCounter = 0; indexCounter < numbersArray.length; indexCounter++ ) {
-
+		for(int counterIndex = 0; counterIndex  < numbersArray.length - 1 ; counterIndex++){
+			test = Math.abs(numbersArray[i]-numbersArray[counterIndex+1]);
+			if(testVar < minDif){
+					minDif = testVar;
+					valueOne = numbersArray[counterIndex];
+					valueTwo = numbersArray[counterIndex+1];
+					getIndex = counterIndex;
+			}
 		}
-
 	}
 
 
